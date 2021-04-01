@@ -1,0 +1,158 @@
+/* header styles */
+
+header {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+    margin: 12px auto 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 4px;    
+}
+
+.logo-container {
+    flex: auto;
+    align-self: flex-end;
+}
+
+nav {
+    flex: auto;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.icons-container {
+    flex: auto;
+    align-self: flex-end;
+    text-align: right;
+    list-style: none;
+}
+
+/* banner styles */
+
+.banner-container {
+    width: 100%;
+    max-width: 1122px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-img {
+    display: block;
+    width: 100%;
+}
+
+.banner-title {
+    background: #f94e4b;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.banner-title h1 {
+    margin: 0 auto;
+    border: solid 1px white;
+    max-width: 560px;
+    font-size: 1.8em;
+    padding: 4px;
+}
+
+.banner-txt {
+    background: #222324;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.banner-txt p {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* main content styles */
+
+.img-txt-container {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.img-container img {
+    display: block;
+}
+
+.txt-container {
+    padding: 40px 20px 20px 70px;
+}
+
+.txt-container h2, .txt-container h4 {
+    margin: 0;
+}
+
+.txt-container h4 {
+    color: #939495;
+    font-style: italic;
+}
+
+.txt-container p {
+    margin: 8px 0;
+    padding-top: 10px;
+    border-top: 1px #222324 solid;
+}
+
+/* table styles */
+
+table {
+    border-collapse: collapse; /* explain this */
+    width: 100%;
+}
+
+td {
+    border-top: solid 1px #222324;
+    border-bottom: solid 1px #222324;
+    padding: 6px;
+}
+
+td:first-child {
+    font-weight: 400;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+.banner-txt h2 {
+    margin: 0 auto;
+}
+
+/* footer styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    background: #222324;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;    
+}
